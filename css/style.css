@@ -52,5 +52,28 @@ header {
     height: 400px;
 }
 
+/******* SEZIONE: 2 *******/
+
+#s2 { 
+    background-color: #9792e4;
+    padding: 20px;
+}
+
+.boxs2 {
+    height: 400px;
+    width: 50%;
+    margin: 40px auto;
+    border-radius: 30px;
+}
+
+.boxs2-l1 { 
+    background-color: yellow;
+    border: black;
+    border-radius: 1px solid black;}
+    
+
+
+.boxs2-l2 { background-color: red;}
+
 
 
