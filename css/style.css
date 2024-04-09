@@ -1,2 +1,50 @@
-/******* RESET *******/
+/******* RESET ********/
 *{ margin: 0; padding: 0; box-sizing: border-box;}
+
+/******* HEADER *******/
+header {
+    background-color: #0084fd;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-box {
+    height: 10px;
+    margin: auto 0px;
+    padding: 0 20px;
+    color: white;
+}
+
+/******* MAIN *******/
+
+/******* SEZIONE: 1 *******/
+
+.bluebox {
+    background-color: #b5ddff;
+    border-radius: 30px;
+}
+
+#demo-app {
+    height: 600px;
+    margin: 50px auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.ml1-1 {
+    background-color: yellow;
+    width: calc(80%);
+    height: 40%;
+    margin: 30px auto;
+}
+
+.ml1-2 {
+    background-color: red;
+    width: calc(80%);
+    height: 40%;
+    margin: 50px auto;
+}
+
+
+
