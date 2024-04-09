@@ -76,4 +76,21 @@ header {
 .boxs2-l2 { background-color: red;}
 
 
+/******* SEZIONE: 3 *******/
+/****** TESTIMONIALS ******/
 
+.s3-text {
+    height: 200px;
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.boxs3 {
+    height: 300px;
+    width: 50%;
+    background-color: #9792e4;
+    border-radius: 30px;
+    margin: 50px auto;
+    
+}
