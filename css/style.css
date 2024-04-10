@@ -25,15 +25,20 @@ header {
 
 /******* SEZIONE: 1 *******/
 
+#s1 {
+    width: 100%;
+}
+
 .bluebox {
     background-color: #b5ddff;
     border-radius: 30px;
+
 }
 
 #demo-app {
-    height: 600px;
+    
     margin: 50px auto;
-    width: 90%;
+    
     padding: 20px;
 }
 
@@ -194,12 +199,44 @@ header {
 ****** MEDIA QUERIES *****
 **************************/
 
-/**** mobile ****/
-@media (max-width: 480px)
-
-
 /**** tablet ****/
-@media (min-width: 481px) and (max-width: 768px)
+@media (min-width: 768px){
+
+    /*TABLET S1*/
+    #s1 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    #demo-app {
+        flex-basis: 45%;
+    }
+
+    .mb1 {
+        flex-basis: 45%
+    }
+
+    .mb2, .mb3, .mb4 {
+        flex-basis: 30%
+    }
+
+    /* TABLET S3*/
+    #s3{
+        
+    }
+
+
+
+    
+}
 
 /**** desktop ****/
-@media (min-width: 769px)
+@media (min-width: 769px){}
+
+/*************************
+******** UTILITIES *******
+**************************/
+
+.fb-45 {
+    flex-basis: 45%;
+}
