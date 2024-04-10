@@ -1,7 +1,10 @@
 /******* RESET ********/
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 
-/******* HEADER *******/
+/*************************
+********* HEADER *********
+**************************/
+
 header {
     background-color: #0084fd;
     height: 60px;
@@ -16,7 +19,9 @@ header {
     color: white;
 }
 
-/******* MAIN *******/
+/*************************
+********* MAIN ***********
+**************************/
 
 /******* SEZIONE: 1 *******/
 
@@ -154,3 +159,47 @@ header {
     width: 50%;
     height: 100px;;
 }
+
+/*************************
+********* FOOTER *********
+**************************/
+
+.f-top {
+    background-color: #9792e4;
+    padding: 30px;
+    
+}
+
+.ftt {
+    background-color: yellow;
+    height: 200px;
+    margin: 30px auto;
+    width: 70%;
+
+}
+
+.f-bottom {
+    background-color: #333;
+    color: white;
+    height: 150px;
+}
+
+.p-fb {
+    text-align: center;
+    padding: 20px 70px;
+    margin: 0 30px;
+}
+
+/*************************
+****** MEDIA QUERIES *****
+**************************/
+
+/**** mobile ****/
+@media (max-width: 480px)
+
+
+/**** tablet ****/
+@media (min-width: 481px) and (max-width: 768px)
+
+/**** desktop ****/
+@media (min-width: 769px)
